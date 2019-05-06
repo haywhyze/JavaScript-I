@@ -24,7 +24,6 @@ const mitzi = {
   "email": "mmelloy@psu.edu",
   "gender": "F"
 };
-console.log(mitzi);
 
 const kennan = {
   "id": 2,
@@ -32,7 +31,6 @@ const kennan = {
   "email": "kdiben1@tinypic.com",
   "gender": "M"
 }
-console.log(kennan);
 
 const keven = {
   "id": 3,
@@ -40,7 +38,6 @@ const keven = {
   "email": "kmummery2@wikimedia.org",
   "gender": "M"
 }
-console.log(keven);
 
 const gannie = {
   "id": 4,
@@ -48,7 +45,6 @@ const gannie = {
   "email": "gmartinson3@illinois.edu",
   "gender": "M"
 }
-console.log(gannie);
 
 const antonietta = {
   "id": 5,
@@ -56,21 +52,25 @@ const antonietta = {
   "email": "adaine5@samsung.com",
   "gender": "F"
 }
-console.log(antonietta);
 
 
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
+console.log(mitzi.name);
 
 // Kennan's ID
+console.log(kennan.id);
 
 // Keven's email
+console.log(keven.email);
 
 // Gannie's name
+console.log(gannie.name);
 
 // Antonietta's Gender
+console.log(antonietta.gender);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
